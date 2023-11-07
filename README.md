@@ -2,7 +2,6 @@
 ## AIM:
 To create a manager database and execute DML queries using SQL.
 
-
 ## DML(Data Manipulation Language)
 <div align="justify">
 The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
@@ -99,7 +98,6 @@ select * from manager where hiredate<to_date('1981-09-30','YYYY-MM-DD');
  select ename,deptno,salary from manager order by deptno asc,salary desc;
 ```
 ### OUTPUT:
-
 ![DBMS10](https://github.com/deepikasrinivasans/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119393935/82067a18-6846-44bc-ab5e-b0d2ec94a33a)
 ### Q11) List the names of employees not belonging to dept no 30,40 & 10
 ### QUERY:
@@ -114,7 +112,6 @@ select ename from manager where deptno not in (30,40,10);
  select count(*) from manager;
 ```
 ### OUTPUT:
-
 ![DBMS12](https://github.com/deepikasrinivasans/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119393935/2c33ffe9-516a-4729-8364-9da288e28cf5)
 ### Q13) Find maximum, minimum and average salary in EMP table.
 ### QUERY:
@@ -130,7 +127,6 @@ select min(salary) from manager;
 ```
 ### OUTPUT:
 ![DBMSMIN](https://github.com/deepikasrinivasans/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119393935/cfa7ccbf-99fe-4700-9b72-5d284c4ed856)
-
 ### AVERAGE:
 ```
 select avg(salary) from manager;
