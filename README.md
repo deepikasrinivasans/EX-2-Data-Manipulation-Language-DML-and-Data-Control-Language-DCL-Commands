@@ -121,12 +121,6 @@ select max(salary) from manager;
 ```
 ### OUTPUT:
 ![DBMS13](https://github.com/deepikasrinivasans/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119393935/dabb7236-13e3-425e-838d-411d480561f1)
-### MINIMUM:
-```
-select min(salary) from manager;
-```
-### OUTPUT:
-![DBMSMIN](https://github.com/deepikasrinivasans/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119393935/cfa7ccbf-99fe-4700-9b72-5d284c4ed856)
 ### AVERAGE:
 ```
 select avg(salary) from manager;
